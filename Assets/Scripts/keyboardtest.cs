@@ -16,7 +16,9 @@ public class keyboardtest : MonoBehaviour {
 	void Update ()
     {
         if (Input.GetKey(KeyCode.LeftControl))
-        { }
+        {
+            Debug.Log("カメラ操作中");
+        }
         else
         { 
             if (Input.GetKey(KeyCode.UpArrow))

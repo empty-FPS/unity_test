@@ -32,5 +32,9 @@ public class RemoteRotate : MonoBehaviour {
                 transform.Rotate(-mRotation, 0, 0);
             }
         }
+        else
+        {
+            Debug.Log("歩行操作中");
+        }
 	}
 }
